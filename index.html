@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="topo">
+      <div class="container">
+        <strong>Newsletter</strong>
+        <button id="btnTema" class="btn">Alterna tema 🌘</button>
+      </div>
+    </header>
+    <main class="container">
+      <section class="caixa">
+        <h1>Inscreva-se</h1>
+        <p>receba novidades do seu e-mail. Sem spam.</p>
+
+        <form action="">
+          <label for="Nome">Nome:</label>
+          <input type="text" name="nome" id="nome" placeholder="Seu nome" />
+
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="exemplo@gmail.com"
+          />
+
+          <button type="submit" class="btn primario">Quero receber</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <div class="container">
+        <small>Newsletter <span id="ano"></span></small>
+      </div>
+    </footer>
+  </body>
+</html>
